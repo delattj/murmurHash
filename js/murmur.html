@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>murmur Hash</title>
+		<script src="murmur.js" language="javascript"></script>
+	</head>
+	<body>
+		<form>
+			<input type="text" name="key" id="key" onkeyup="document.getElementById('result_v3_32').innerHTML = murmur.hash_v3_32(this.value);" />
+		</form>
+		<div>Murmur 3 32bit:</div>
+		<div id="result_v3_32"></div>
+	</body>
+</html>
